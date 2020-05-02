@@ -3,12 +3,12 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="google.com">
-          Navbar
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="/">
+          Parthiban Blog
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -16,33 +16,23 @@ class Header extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="google.com">
-                About <span class="sr-only">(current)</span>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="about">
+                About <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="google.com">
-                Features
+            <li className="nav-item">
+              <a className="nav-link" href="technologies">
+                Technologies
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="google.com">
-                Pricing
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="google.com"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Disabled
+            <li className="nav-item">
+              <a className="nav-link" href="contact">
+                Contact
               </a>
             </li>
           </ul>
