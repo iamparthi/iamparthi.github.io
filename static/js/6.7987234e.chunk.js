@@ -1,0 +1,2 @@
+(this["webpackJsonpparthiban-blog-react"]=this["webpackJsonpparthiban-blog-react"]||[]).push([[6],{36:function(t,e,n){"use strict";n.r(e);var a=n(5),r=n(6),c=n(7),o=n(8),i=n(0),u=n.n(i),b=function(t){Object(o.a)(n,t);var e=Object(c.a)(n);function n(){return Object(a.a)(this,n),e.apply(this,arguments)}return Object(r.a)(n,[{key:"render",value:function(){return u.a.createElement("div",null,"Technology works")}}]),n}(i.Component);e.default=b}}]);
+//# sourceMappingURL=6.7987234e.chunk.js.map
